@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* global starts */
+:root {
+    --cs-primary: #E85F57;
+    --cs-secondary: #393939;
+    --cs-white: #FFFFFF;
+}
+
+body {
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Nunito", sans-serif;
+    color: var(--cs-secondary);
+}
+
+h1 {
+    font-size: 58px;
+    font-weight: 700;
+    margin: 0;
+}
+
+h2 {
+    font-size: 43px;
+    font-weight: 600;
+    margin: 0;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+
+p {
+    font-size: 35px;
+    font-weight: 400;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    list-style: none;
+    font-size: 18px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.p-80 {
+    padding: 80px 0;
+}
+
+.cs-btn {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 30px;
+    color: var(--cs-white);
+    background-color: var(--cs-primary);
+    border-radius: 3px;
+    transition: .4s all ease-in-out;
+    font-family: "Poppins", sans-serif;
+}
+
+.cs-btn:hover {
+    color: var(--cs-white);
+    background-color: var(--cs-secondary);
+}
+
+/* header start  */
+nav {
+    transition: 0.3s all ease-in-out;
+    padding: 30px 120px;
+}
+
+.scrolled {
+    background-color: white !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 190px;
+}
+
+/* hero start here  */
+.hero {
+    background-image: url(../img/herobg.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 690px;
+    padding: 90px 0 0;
+}
+
+#hero-row {
+    min-height: 767px;
+    align-items: center;
+}
+
+.hero-contant p {
+    max-width: 563px;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+}
+
+
+/* every products start here  */
+.every-product h2,
+.why-does h2 {
+    max-width: 1010px;
+}
+
+.icon-wraper {
+    background-color: var(--cs-white);
+    width: 188px;
+    height: 187px;
+    border-radius: 50%;
+    padding: 31.5px;
+    box-shadow: 0 0 10px 0 #ddd;
+}
+
+.icon-wraper img {
+    max-width: 90px;
+}
+
+.pro-single-img h4 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* why does start here  */
+.why-does p {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1070px;
+}
+
+.find-it-img {
+    max-width: 381px;
+}
+
+/* send it start  */
+.send-it-header p {
+    max-width: 890px;
+}
+
+.send-it-images {
+    max-width: 1017px;
+    margin: 0 auto;
+}
+
+/* enhance start  */
+.enhance {
+    padding-bottom: 80px;
+}
+
+
+/* need start here  */
+
+.need-content p {
+    max-width: 680px;
+}
+
+.need-single {
+    max-width: 392px;
+}
+
+.need-single p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* library  */
+#library-des {
+    max-width: 634px;
+}
+
+#canva {
+    max-width: 436px;
+    margin-left: auto;
+}
+
+/* siri  start  */
+#siri-content p {
+    font-size: 28px;
+}
+
+#siri {
+    max-width: 489px;
+}
+
+/* pricing start here  */
+.pricing h2 {
+    margin-bottom: 53px;
+}
+
+.price-btn {
+    max-width: 320px;
+    margin: 0 auto;
+    box-shadow: 0 3px 10px 0px #ddd;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.bd-rd {
+    border-radius: 10px;
+}
+
+.nav-tabs .nav-item button {
+    background-color: transparent;
+    color: #191A15;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: .4s all ease-in-out;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.nav-tabs .nav-item .active {
+    color: var(--cs-white) !important;
+    background-color: var(--cs-primary) !important;
+    transition: .4s all ease-in-out;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-tabs .nav-item button:hover,
+.nav-tabs .nav-item .active:hover {
+    color: var(--cs-white);
+    background-color: var(--cs-secondary);
+}
+
+/* price start  */
+.pricing-table {
+    gap: 67px;
+    padding-top: 80px;
+}
+
+.pricing-single-table {
+    max-width: 374px;
+    box-shadow: 0 0 10px 0 #ddd;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.pricing-table-heading {
+    padding: 20px 40px 20px;
+}
+
+.pricing-single-table h3 {
+    text-align: center;
+}
+
+.pricing-single-table h3 span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pricing-single-table p {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.pricing-inner {
+    background-color: #EBEBEB;
+    padding: 26px 28px 25px 37px;
+    border-radius: 10px;
+}
+
+.pricing-inner ul {
+    padding-bottom: 25px;
+    min-height: 573px;
+}
+
+
+.check-img {
+    display: block;
+    width: 26px;
+}
+
+.list-text {
+    display: block;
+    width: calc(269px - 36px);
+}
+
+.cs-price {
+    width: 260px;
+    background-color: var(--cs-white);
+    color: var(--cs-primary);
+}
+
+.cs-price:hover {
+    color: var(--cs-white);
+    background-color: var(--cs-primary);
+}
+
+/* newsletter  */
+.newsletter h2 {
+    color: #757575;
+}
+
+.newsletter p {
+    font-size: 16px;
+    max-width: 425px;
+    text-align: center;
+    margin: 28px auto 34px;
+
+}
+
+
+input {
+    max-width: 403px;
+    height: 48px;
+    box-shadow: 0 0 10px 0 #ddd;
+    border: none !important;
+    padding-left: 28px !important;
+    color: #000 !important;
+}
+
+input::placeholder {
+    font-size: 18px;
+    color: #000 !important;
+    font-weight: 600;
+}
+
+/* footer start  */
+footer {
+    padding: 30px 0 60px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 18px;
+}
+
+footer p a {
+    color: var(--cs-secondary);
+
+}
+
+footer p a:hover {
+    text-decoration: underline;
+    color: var(--cs-primary);
+
+}
+

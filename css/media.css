@@ -1,0 +1,193 @@
+@media (max-width: 1700px) {
+    header {
+        background-size: auto;
+    }
+}
+
+@media (max-width: 1600px) {
+    nav {
+        padding: 30px 60px;
+    }
+
+    .icon-wraper {
+
+        width: 120px;
+        height: 120px;
+        padding: 10px;
+
+    }
+
+    .icon-wraper img {
+        max-width: 70px;
+    }
+}
+
+@media (max-width: 1400px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    p {
+        font-size: 38px;
+    }
+
+}
+
+@media(max-width:1200) {
+    .icon-wraper {
+
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+
+    }
+
+    .icon-wraper img {
+        max-width: 50px;
+    }
+}
+
+@media (max-width: 991px) {
+    h1 {
+        font-size: 36px;
+        margin: 0 auto;
+        max-width: 600px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .p-80 {
+        padding: 40px 0;
+    }
+
+    .hero {
+        background-image: none;
+        padding: 110px 0 0;
+    }
+
+    #hero-row {
+        min-height: 650px;
+    }
+
+
+    .hero-contant p {
+        margin: 20px auto 0;
+        font-size: 16px;
+    }
+
+
+    .pro-single-img h4 {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+
+    .icon-wraper {
+
+        width: 80px;
+        height: 80px;
+        padding: 5px;
+
+    }
+
+    .icon-wraper img {
+        max-width: 38px;
+    }
+
+    .enhance {
+        padding-bottom: 20px;
+    }
+
+    #siri-content p {
+        font-size: 16px;
+    }
+
+    .pricing h2 {
+        margin-bottom: 30px;
+    }
+
+    .pricing-table {
+        padding-top: 40px;
+        gap: 30px;
+
+    }
+
+    #canva {
+        margin: 0 auto;
+    }
+
+    .send-it-images {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .logo {
+        width: 130px;
+    }
+
+    nav {
+        padding: 30px 20px;
+    }
+
+    .cs-btn {
+        font-size: 16px;
+        padding: 6px 20px;
+    }
+
+    .pricing-inner ul {
+
+        min-height: 53px;
+    }
+
+    input {
+        max-width: 100%;
+    }
+
+    .send-it-images {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 575px) {
+    h1 {
+        font-size: 26px;
+
+    }
+
+    .need-single p {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .pricing-single-table {
+        max-width: 355px;
+
+
+    }
+
+    .pricing-table-heading {
+        padding: 20px;
+    }
+
+    .list-text {
+        display: block;
+        width: calc(254px - 36px);
+        font-size: 16px;
+    }
+
+    .pricing-inner {
+
+        padding: 26px;
+
+    }
+}
